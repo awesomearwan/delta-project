@@ -1,0 +1,18 @@
+<% if ( sucMessages  && sucMessages.length) { %>
+    <div class="alert alert-success col-6 offset-3 mt-1 alert-dismissible fade show" role="alert">
+        <%= sucMessages %>    
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
+    </div> 
+<%}%>
+
+
+<% if ( errMessages  && errMessages.length) { %>
+    <div class="alert alert-danger col-6 offset-3 mt-1 alert-dismissible fade show" role="alert">
+        <%= errMessages %>    
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
+    </div> 
+<%}%>
+
+
+
+
